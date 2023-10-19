@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Boston Crime Report</title>
+    <title>Has Boston Gotten Safer?</title>
     <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
@@ -114,7 +114,7 @@
         <!-- Heading -->
         <div class="pure-g">
             <div class="pure-u-1-1">
-                <h1>Has Boston gotten safter?</h1>
+                <h1>Has Boston Gotten Safer?</h1>
             </div>
             <div class="pure-u-1">
                 <div class="sub-heading">
@@ -222,8 +222,32 @@ There are a number of factors that contribute to the high crime rates in these n
             </div>
         </div>
 
-        
-       
+        <div class="pure-g">
+            <div class="pure-u-3-5">
+                <div id="heatmap" class="vis-container"></div>
+            </div>
+            <div class="pure-u-2-5">
+                <p>
+                    <span style="font-weight: bold;">Interesting things about the graph:</span>
+                </p>
+                      
+                <p>
+                    The neighborhoods with the highest crime rates in Dudley Square, Roxbury, and Dorchester.
+                </p>
+                      
+                <p>
+                    These neighborhoods account for a disproportionate share of Boston's violent crime.
+                </p>
+                      
+                <p>
+                    It is also visible that in Novermber and December, the crimes decrease.
+                </p>
+                      
+                <p>
+                    Moreover, Mattapan and Mission Hill are the safest neighborhood.
+                  </p>
+            </div>
+        </div>
     </div> <!-- end page -->
 
     <script type="text/javascript">
@@ -231,6 +255,7 @@ There are a number of factors that contribute to the high crime rates in these n
         var specVis2 = "donutchart/donutchart.json";
         var specVis3 = "streamgraph/streamgraph.json";
         var specVis4 = "choropleth/choropleth.json";
+        var specVis5 = "heatmap/heatmap.json";
 
         vegaEmbed('#waterfallchart', specVis1, {"actions": false}).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -247,6 +272,11 @@ There are a number of factors that contribute to the high crime rates in these n
         vegaEmbed('#choropleth', specVis4, {"actions": false}).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
+
+        vegaEmbed('#heatmap', specVis5, {"actions": false}).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
     </script>
 </body>
 </html>
