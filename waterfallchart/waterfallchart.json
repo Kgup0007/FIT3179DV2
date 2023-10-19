@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179A2/main/waterfallchart/Data/crime_chng.csv"
+  },
+  "width": "container",
+  "height": 450,
+  "title": {"text": "Number Of Crimes Over Years (2007-2021)", "fontSize": 20},
+  "transform": [
+    {"window": [{"op": "sum", "field": "amount", "as": "sum"}]},
+    {"window": [{"op": "lead", "field": "year", "as": "lead"}]},
+    {
+      "calculate": "datum.lead === null ? datum.year : datum.lead",
+      "as": "lead"
+    },
+    {
+      "calculate": "datum.year === 'Total' ? 0 : datum.sum - datum.amount",
+      "as": "previous_sum"
+    },
+    {
+      "calculate": "datum.year === 'Total' ? datum.sum : datum.amount",
+      "as": "amount"
+    },
+    {
+      "calculate": "(datum.year !== '2007' && datum.year !== 'Total' && datum.amount > 0 ? '+' : '') + datum.amount",
+      "as": "text_amount"
+    },
+    {"calculate": "(datum.year !== '2007' && datum.year !== 'Total') ? (datum.sum + datum.previous_sum) / 2 : (0 + datum.sum) / 2", "as": "center"},
+    {
+      "calculate": "datum.sum < datum.previous_sum ? datum.sum : ''",
+      "as": "sum_dec"
+    },
+    {
+      "calculate": "datum.sum > datum.previous_sum ? datum.sum : ''",
+      "as": "sum_inc"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "sort": null,
+      "axis": {"labelAngle": 0, "title": null}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "size": 45, "clip": true},
+      "encoding": {
+        "y": {
+          "field": "previous_sum",
+          "type": "quantitative",
+          "title": "Amount",
+          "scale": {"domainMin": 0},
+          "axis": {"grid": false, "title": null, "tickCount": 5}
+        },
+        "y2": {"field": "sum"},
+        "color": {
+          "condition": [
+            {
+              "test": "datum.year === '2007' || datum.year === 'Total'",
+              "value": "#f0c575"
+            },
+            {"test": "datum.sum < datum.previous_sum", "value": "#5ba47d"}
+          ],
+          "value": "#f24a0d"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#404040",
+        "opacity": 1,
+        "strokeWidth": 2,
+        "xOffset": -22.5,
+        "x2Offset": 22.5
+      },
+      "encoding": {
+        "x2": {"field": "lead"},
+        "y": {"field": "sum", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "text", "dy": -4, "baseline": "bottom", "clip": true},
+      "encoding": {
+        "y": {"field": "sum_inc", "type": "quantitative"},
+        "text": {"field": "sum_inc", "type": "nominal"}
+      }
+    },
+    {
+      "mark": {"type": "text", "dy": 4, "baseline": "top", "clip": true},
+      "encoding": {
+        "y": {"field": "sum_dec", "type": "quantitative"},
+        "text": {"field": "sum_dec", "type": "nominal"}
+      }
+    },
+    {
+      "mark": {"type": "text", "fontWeight": "bold", "baseline": "middle"},
+      "encoding": {
+        "y": {"field": "center", "type": "quantitative"},
+        "text": {"field": "text_amount", "type": "nominal"},
+        "color": {
+          "condition": [
+            {
+              "test": "datum.year === '2007' || datum.year === 'Total'",
+              "value": "black"
+            }
+          ],
+          "value": "white"
+        }
+      }
+    }
+  ],
+  "config": {"text": {"fontWeight": "bold", "color": "#404040"}}
+}

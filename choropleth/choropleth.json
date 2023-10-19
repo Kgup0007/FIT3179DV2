@@ -1,0 +1,59 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "description": "the population per state, engineers per state, and hurricanes per state",
+    "title": {"text": "Theft and Break and Enter Crimes in Boston Neighborhoods","fontSize": 16},
+    "repeat": {"row": ["Theft (%)", "Break and Enter (%)"]},
+    "resolve": {
+        "scale": {
+            "color": "independent"
+      }
+    },
+    "spec": {
+        "width": 600,
+        "height": 350,
+        "data": {
+            "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179A2/main/choropleth/Data/theft_break.csv"
+        },
+        "transform": [
+            {
+                "calculate": "datum['Theft'] > 25 ? '≥ 25' : datum['Theft'] >= 10 ? '≥ 10' : datum['Theft'] > 0 ? '> 0' : datum['Theft'] === 0 ? '0' : datum['Theft'] < -25 ? '≤ -25' : datum['Theft'] <= -10 ? '≤ -10' : '< 0'",
+                "as": "Theft (%)"
+            },
+            {
+                "calculate": "datum['Break and Enter'] > 25 ? '≥ 25' : datum['Break and Enter'] >= 10 ? '≥ 10' : datum['Break and Enter'] > 0 ? '> 0' : round(datum['Break and Enter'], 0) === 0 ? '0' : datum['Break and Enter'] < -25 ? '≤ -25' : datum['Break and Enter'] <= -10 ? '≤ -10' : '< 0'",
+                "as": "Break and Enter (%)"
+            },
+            {
+                "lookup": "Neighbourhood",
+                "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179A2/main/choropleth/boston_neighborhoods%20(1).json",
+                    "format": {"type": "topojson","feature": "boston_neighborhoods" }
+                },
+                "key": "properties.name"
+                },
+                "as": "geo"
+            }
+        ],
+        "projection": {"type": "equirectangular"},
+        "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.2},
+        "encoding": {
+            "shape": {
+                "field": "geo",
+                "type": "geojson"
+            },
+            "color": {
+                "field": {"repeat": "row"},
+                "type": "nominal",
+                "scale": {"type": "threshold", "domain": ["≥ 25", "≥ 10", "> 0", "0", "< 0", "≤ -10", "≤ -25"], "scheme": "redyellowblue"}
+             },
+            "tooltip": [
+                {"field": "Neighbourhood", "type": "nominal", "title": "Neighbourhood"},
+                {"field": "Theft", "type": "quantitative", "title": "Theft"},
+                {"field": "Break and Enter", "type": "quantitative", "title": "Break and Enter"}
+            ]
+        }
+    }
+}
+  
+  

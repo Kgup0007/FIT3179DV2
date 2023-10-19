@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": 300,
+  "description": "A bar chart showing the part-whole relationship for each type of crime",
+  "data": {
+      "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179A2/main/donutchart/Data/crime_type.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+      "x": {
+          "field": "type",
+          "type": "nominal",
+          "title": "Type of Crime"
+      },
+      "y": {
+          "field": "amount",
+          "type": "quantitative",
+          "title": "Amount"
+      },
+      "color": {
+          "field": "type",
+          "type": "nominal",
+          "scale": {
+              "scheme": "set1"  
+          }
+      },
+      "tooltip": [
+          {"field": "type", "type": "nominal", "title": "Type of Crime"},
+          {"field": "amount", "type": "quantitative", "title": "Amount"}
+      ]
+  },
+  "config": {
+      "view": {
+          "stroke": null
+      }
+  }
+}

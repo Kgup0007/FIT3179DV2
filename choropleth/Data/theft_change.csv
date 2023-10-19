@@ -1,0 +1,385 @@
+﻿year,neighbourhood,percentage
+2004,Allston,8.63
+2004,Back Bay,-2.06
+2004,Harbor Islands,-46.25
+2004,Beacon Hill,-21.23
+2004,Brighton,-10.64
+2004,Charlestown,18.25
+2004,Chinatown,-18.12
+2004,Dorchester,3.28
+2004,Downtown,30.95
+2004,East Boston,-20
+2004,Fenway,41.67
+2004,Hyde Park,0.53
+2004,Jamaica Plain,28.72
+2004,Mattapan,-19.83
+2004,Mission Hill,-21.13
+2004,North End,-1.96
+2004,Roslindale,37.53
+2004,Roxbury,-27.66
+2004,South Boston,-43.04
+2004,South End,-15.56
+2004,West End,-26.84
+2004,West Roxbury,-10.31514286
+2004,South Boston Waterfront,-10.79937662
+2004,Longwood,-11.28361039
+2005,Allston,46.04
+2005,Back Bay,20.69
+2005,Harbor Islands,32.65
+2005,Beacon Hill,-7.69
+2005,Brighton,-34
+2005,Charlestown,16.16
+2005,Chinatown,26.52
+2005,Dorchester,-20.27
+2005,Downtown,-0.43
+2005,East Boston,10.39
+2005,Fenway,-19.22
+2005,Hyde Park,-4.82
+2005,Jamaica Plain,-0.51
+2005,Mattapan,-12.17
+2005,Mission Hill,-15.25
+2005,North End,-13.89
+2005,Roslindale,7.15
+2005,Roxbury,-13.05
+2005,South Boston,-17.99
+2005,South End,14.86
+2005,West End,-7.06
+2005,West Roxbury,-15.15109524
+2005,South Boston Waterfront,-16.56357576
+2005,Longwood,-8.184472029
+2006,Allston,36.51
+2006,Back Bay,-6.42
+2006,Harbor Islands,0.84
+2006,Beacon Hill,-12.55
+2006,Brighton,11.41
+2006,Charlestown,0.62
+2006,Chinatown,-8.22
+2006,Dorchester,-18.77
+2006,Downtown,-18.9
+2006,East Boston,4.5
+2006,Fenway,-25.17
+2006,Hyde Park,-6.78
+2006,Jamaica Plain,-2.33
+2006,Mattapan,-13.48
+2006,Mission Hill,2.11
+2006,North End,24.64
+2006,Roslindale,17.22
+2006,Roxbury,4.03
+2006,South Boston,28.87
+2006,South End,-0.16
+2006,West End,-12.03
+2006,West Roxbury,6.771
+2006,South Boston Waterfront,7.561428571
+2006,Longwood,8.351857142
+2007,Allston,-6.28
+2007,Back Bay,11.21
+2007,Harbor Islands,-20.61
+2007,Beacon Hill,-7.19
+2007,Brighton,-16.71
+2007,Charlestown,-12.94
+2007,Chinatown,-13.52
+2007,Dorchester,-5.21
+2007,Downtown,4.28
+2007,East Boston,7.62
+2007,Fenway,-22.69
+2007,Hyde Park,28.4
+2007,Jamaica Plain,15.72
+2007,Mattapan,2.37
+2007,Mission Hill,17.75
+2007,North End,10.09
+2007,Roslindale,-3.21
+2007,Roxbury,31.45
+2007,South Boston,-16.91
+2007,South End,-5.96
+2007,West End,-22.88
+2007,West Roxbury,-22.88
+2007,South Boston Waterfront,-22.88
+2007,Longwood,-5.897894737
+2008,Allston,-6.51
+2008,Back Bay,-2.85
+2008,Harbor Islands,-0.71
+2008,Beacon Hill,-19.29
+2008,Brighton,0.44
+2008,Charlestown,31.09
+2008,Chinatown,9.02
+2008,Dorchester,-6.13
+2008,Downtown,0
+2008,East Boston,-12.84
+2008,Fenway,3.5
+2008,Hyde Park,4.58
+2008,Jamaica Plain,67.01
+2008,Mattapan,-1.83
+2008,Mission Hill,-32.37
+2008,North End,-32.52
+2008,Roslindale,-31.82
+2008,Roxbury,30.67
+2008,South Boston,-10.71
+2008,South End,24.57
+2008,West End,27.06
+2008,West Roxbury,27.06
+2008,South Boston Waterfront,27.06
+2008,Longwood,16.88161765
+2009,Allston,-36.1
+2009,Back Bay,10.73
+2009,Harbor Islands,32.65
+2009,Beacon Hill,-1.92
+2009,Brighton,-29.41
+2009,Charlestown,13.89
+2009,Chinatown,-6.83
+2009,Dorchester,31.36
+2009,Downtown,-0.3
+2009,East Boston,-21.23
+2009,Fenway,-11.09
+2009,Hyde Park,-39.57
+2009,Jamaica Plain,33.45
+2009,Mattapan,-13.87
+2009,Mission Hill,-38.08
+2009,North End,78
+2009,Roslindale,-24.16
+2009,Roxbury,12.22
+2009,South Boston,9.9
+2009,South End,-17.12
+2009,West End,22.83
+2009,West Roxbury,7.653856209
+2009,South Boston Waterfront,8.470811834
+2009,Longwood,17.35497371
+2010,Allston,7.029654541
+2010,Back Bay,5.26
+2010,Harbor Islands,-9.18
+2010,Beacon Hill,-1.04
+2010,Brighton,-8.71
+2010,Charlestown,-28.84
+2010,Chinatown,-18.25
+2010,Dorchester,18.87
+2010,Downtown,-13.49
+2010,East Boston,-11.39
+2010,Fenway,9.74
+2010,Hyde Park,-8.38
+2010,Jamaica Plain,7.81
+2010,Mattapan,25.34
+2010,Mission Hill,10.76
+2010,North End,-11.15
+2010,Roslindale,16.3
+2010,Roxbury,-16.8
+2010,South Boston,5.67
+2010,South End,9.92
+2010,West End,-40.49
+2010,West Roxbury,-21.14714286
+2010,South Boston Waterfront,-25.51285714
+2010,Longwood,-29.47106493
+2011,Allston,-1.64
+2011,Back Bay,-20.83
+2011,Harbor Islands,-3.16
+2011,Beacon Hill,-17.39
+2011,Brighton,-11.18
+2011,Charlestown,19.26
+2011,Chinatown,-4.35
+2011,Dorchester,22.73
+2011,Downtown,9.79
+2011,East Boston,0.96
+2011,Fenway,16.23
+2011,Hyde Park,-10.06
+2011,Jamaica Plain,7.53
+2011,Mattapan,15.2
+2011,Mission Hill,-11.34
+2011,North End,-11.99
+2011,Roslindale,-19.36
+2011,Roxbury,15.65
+2011,South Boston,-16.9
+2011,South End,-9.28
+2011,West End,4.24
+2011,West Roxbury,0.805714286
+2011,South Boston Waterfront,2.756428571
+2011,Longwood,-1.948939394
+2012,Allston,6.89
+2012,Back Bay,2.05
+2012,Harbor Islands,46.79
+2012,Beacon Hill,3.46
+2012,Brighton,12.79
+2012,Charlestown,-14.41
+2012,Chinatown,5.35
+2012,Dorchester,-3.59
+2012,Downtown,6.82
+2012,East Boston,9.31
+2012,Fenway,-26.52
+2012,Hyde Park,-32.12
+2012,Jamaica Plain,0.49
+2012,Mattapan,19.9
+2012,Mission Hill,21.86
+2012,North End,-3.99
+2012,Roslindale,14.53
+2012,Roxbury,-17.52
+2012,South Boston,2.93
+2012,South End,7.47
+2012,West End,-0.99
+2012,West Roxbury,-4.705714286
+2012,South Boston Waterfront,-6.749642857
+2012,Longwood,0.156655844
+2013,Allston,-10.03
+2013,Back Bay,-2.23
+2013,Harbor Islands,12.17
+2013,Beacon Hill,23.53
+2013,Brighton,-0.32
+2013,Charlestown,-9.49
+2013,Chinatown,-30.19
+2013,Dorchester,-22.08
+2013,Downtown,21.6
+2013,East Boston,4.68
+2013,Fenway,-14.23
+2013,Hyde Park,11.02
+2013,Jamaica Plain,-16.12
+2013,Mattapan,38.17
+2013,Mission Hill,-5.43
+2013,North End,7.89
+2013,Roslindale,24.37
+2013,Roxbury,-15.09
+2013,South Boston,-8.72
+2013,South End,7.18
+2013,West End,-9.09
+2013,West Roxbury,-11.92
+2013,South Boston Waterfront,-15.63714286
+2013,Longwood,-13.67805195
+2014,Allston,-16.49
+2014,Back Bay,-24.16
+2014,Harbor Islands,1.11
+2014,Beacon Hill,-4.66
+2014,Brighton,-4.31
+2014,Charlestown,-5.41
+2014,Chinatown,10.16
+2014,Dorchester,30.55
+2014,Downtown,3.31
+2014,East Boston,2.78
+2014,Fenway,12.68
+2014,Hyde Park,-12.73
+2014,Jamaica Plain,10.36
+2014,Mattapan,9.39
+2014,Mission Hill,22.89
+2014,North End,8.91
+2014,Roslindale,-56.13
+2014,Roxbury,11.02
+2014,South Boston,-14.5
+2014,South End,-9.82
+2014,West End,9.9
+2014,West Roxbury,-11.02785714
+2014,South Boston Waterfront,-12.96904762
+2014,Longwood,-11.28361039
+2015,Allston,38.74
+2015,Back Bay,9.74
+2015,Harbor Islands,-19.53
+2015,Beacon Hill,13.97
+2015,Brighton,-9.68
+2015,Charlestown,20.71
+2015,Chinatown,10.65
+2015,Dorchester,11.23
+2015,Downtown,-41.35
+2015,East Boston,-8.46
+2015,Fenway,2.01
+2015,Hyde Park,-20.08
+2015,Jamaica Plain,-33.5
+2015,Mattapan,0.74
+2015,Mission Hill,22.06
+2015,North End,1.2
+2015,Roslindale,-1.19
+2015,Roxbury,-4.22
+2015,South Boston,4.4
+2015,South End,74.7
+2015,West End,-13.79
+2015,West Roxbury,18.31428571
+2015,South Boston Waterfront,19.92285714
+2015,Longwood,23.95123809
+2016,Allston,-7.6
+2016,Back Bay,-10.39
+2016,Harbor Islands,-14.98
+2016,Beacon Hill,41.48
+2016,Brighton,-7.58
+2016,Charlestown,-1.62
+2016,Chinatown,-19.24
+2016,Dorchester,0.89
+2016,Downtown,-13.64
+2016,East Boston,-8.48
+2016,Fenway,-10.06
+2016,Hyde Park,-6.75
+2016,Jamaica Plain,14.67
+2016,Mattapan,-18.94
+2016,Mission Hill,49.39
+2016,North End,3.02
+2016,Roslindale,34.89
+2016,Roxbury,-1.18
+2016,South Boston,8.49
+2016,South End,1.57
+2016,West End,-8.95
+2016,West Roxbury,-18.515
+2016,South Boston Waterfront,-27.008
+2016,Longwood,-13.58668182
+2017,Allston,6.28
+2017,Back Bay,-13.78
+2017,Harbor Islands,-18.49
+2017,Beacon Hill,-30.67
+2017,Brighton,14.95
+2017,Charlestown,-0.53
+2017,Chinatown,-32.16
+2017,Dorchester,16.15
+2017,Downtown,-8.52
+2017,East Boston,-1.96
+2017,Fenway,21.75
+2017,Hyde Park,16.22
+2017,Jamaica Plain,-17.84
+2017,Mattapan,22.15
+2017,Mission Hill,0.35
+2017,North End,20.57
+2017,Roslindale,-18.32
+2017,Roxbury,-29.79
+2017,South Boston,-23.41
+2017,South End,-11.78
+2017,West End,8.66
+2017,West Roxbury,-12.36666667
+2017,South Boston Waterfront,-13.3252381
+2017,Longwood,-20.05071429
+2018,Allston,-8.64
+2018,Back Bay,-4.36
+2018,Harbor Islands,-7.22
+2018,Beacon Hill,5.33
+2018,Brighton,21.01
+2018,Charlestown,0
+2018,Chinatown,5.47
+2018,Dorchester,22.56
+2018,Downtown,-13.68
+2018,East Boston,-0.29
+2018,Fenway,-8.03
+2018,Hyde Park,-20.9
+2018,Jamaica Plain,-2.01
+2018,Mattapan,-9.21
+2018,Mission Hill,2.3
+2018,North End,-17.59
+2018,Roslindale,-17.38
+2018,Roxbury,-8.3
+2018,South Boston,-5.14
+2018,South End,13.35
+2018,West End,17.56
+2018,West Roxbury,24.19333333
+2018,South Boston Waterfront,31.93904762
+2018,Longwood,32.5010582
+2019,Allston,12.69
+2019,Back Bay,21.98
+2019,Harbor Islands,-8.3
+2019,Beacon Hill,5.78
+2019,Brighton,-2.14
+2019,Charlestown,36.06
+2019,Chinatown,-12.02
+2019,Dorchester,-29.19
+2019,Downtown,-18.86
+2019,East Boston,-25.95
+2019,Fenway,37.96
+2019,Hyde Park,-4.76
+2019,Jamaica Plain,-6.11
+2019,Mattapan,0
+2019,Mission Hill,-11.83
+2019,North End,17.45
+2019,Roslindale,20.57
+2019,Roxbury,-3.79
+2019,South Boston,-0.99
+2019,South End,4.98
+2019,West End,2.37
+2019,West Roxbury,6.755
+2019,South Boston Waterfront,9.2
+2019,Longwood,7.002083333
