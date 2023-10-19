@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179A2/main/waterfallchart/Data/crime_chng.csv"
+    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179DV2/main/waterfallchart/Data/crime_chng.csv"
   },
   "width": "container",
   "height": 450,

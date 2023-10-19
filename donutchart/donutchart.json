@@ -4,7 +4,7 @@
   "height": 300,
   "description": "A bar chart showing the part-whole relationship for each type of crime",
   "data": {
-      "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179A2/main/donutchart/Data/crime_type.csv"
+      "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179DV2/main/donutchart/Data/crime_type.csv"
   },
   "mark": "bar",
   "encoding": {

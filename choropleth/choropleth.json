@@ -12,7 +12,7 @@
         "width": 600,
         "height": 350,
         "data": {
-            "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179A2/main/choropleth/Data/theft_break.csv"
+            "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179DV2/main/choropleth/Data/theft_break.csv"
         },
         "transform": [
             {
@@ -27,7 +27,7 @@
                 "lookup": "Neighbourhood",
                 "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179A2/main/choropleth/boston_neighborhoods%20(1).json",
+                    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179DV2/main/choropleth/boston_neighborhoods%20(1).json",
                     "format": {"type": "topojson","feature": "boston_neighborhoods" }
                 },
                 "key": "properties.name"
